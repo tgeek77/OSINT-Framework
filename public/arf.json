@@ -336,11 +336,6 @@
         "url": "https://who.is/"
       },
       {
-        "name": "Whois AMPed",
-        "type": "url",
-        "url": "https://whoisamped.com/"
-      },
-      {
         "name": "ViewDNS.info",
         "type": "url",
         "url": "http://viewdns.info/"
@@ -621,29 +616,14 @@
         "url": "http://urlquery.net/"
       },
       {
-        "name": "PassiveTotal",
-        "type": "url",
-        "url": "https://www.passivetotal.org/"
-      },
-      {
         "name": "URL Void",
         "type": "url",
         "url": "http://www.urlvoid.com/"
       },
       {
-        "name": "Threat Crowd",
-        "type": "url",
-        "url": "https://www.threatcrowd.org/"
-      },
-      {
         "name": "FortiGuard Reputation Service",
         "type": "url",
         "url": "http://fortiguard.com/iprep"
-      },
-      {
-        "name": "McAfee TrustedSource",
-        "type": "url",
-        "url": "http://www.trustedsource.org/"
       },
       {
         "name": "Trend Micro Site Safety Center",
@@ -679,11 +659,6 @@
         "name": "Joe Sandbox Url Analyzer",
         "type": "url",
         "url": "https://www.url-analyzer.net/"
-      },
-      {
-        "name": "Deepviz Domain Search",
-        "type": "url",
-        "url": "https://search.deepviz.com/"
       },
       {
         "name": "Cisco SenderBase",
@@ -724,11 +699,6 @@
         "name": "Google Safe Browsing API",
         "type": "url",
         "url": "https://developers.google.com/safe-browsing/?csw=1"
-      },
-      {
-        "name": "hpHosts Online",
-        "type": "url",
-        "url": "http://hosts-file.net/"
       }]
     },
     {
@@ -746,11 +716,6 @@
         "url": "http://www.networksec.org/grabbho/block.txt"
       },
       {
-        "name": "Zeus C2 Tracker",
-        "type": "url",
-        "url": "https://zeustracker.abuse.ch/blocklist.php?download=domainblocklist"
-      },
-      {
         "name": "Malware Domains Blacklist",
         "type": "url",
         "url": "http://mirror1.malwaredomains.com/files/domains.txt"
@@ -759,11 +724,6 @@
         "name": "Blackweb",
         "type": "url",
         "url": "https://github.com/maravento/blackweb"
-      },
-      {
-        "name": "Critical Stack Intel (R)",
-        "type": "url",
-        "url": "https://intel.criticalstack.com/"
       },
       {
         "name": "DNS Sinkhole",
@@ -794,11 +754,6 @@
         "name": "scumware.org",
         "type": "url",
         "url": "https://www.scumware.org/"
-      },
-      {
-        "name": "ZeuS Tracker",
-        "type": "url",
-        "url": "https://zeustracker.abuse.ch/blocklist.php"
       },
       {
         "name": "Shadowserver Foundation",
@@ -861,11 +816,6 @@
         "url": "https://www.semrush.com/"
       },
       {
-        "name": "TopGainers",
-        "type": "url",
-        "url": "https://topgainers.net/"
-      },
-      {
         "name": "Moonsearch",
         "type": "url",
         "url": "http://moonsearch.com/"
@@ -896,19 +846,9 @@
         "url": "https://moz.com/researchtools/ose/"
       },
       {
-        "name": "SpyOnWeb",
-        "type": "url",
-        "url": "http://www.spyonweb.com/"
-      },
-      {
         "name": "SecurityHeaders.io",
         "type": "url",
         "url": "https://securityheaders.io/"
-      },
-      {
-        "name": "Keyword Density",
-        "type": "url",
-        "url": "http://tools.seobook.com/general/keyword-density/"
       },
       {
         "name": "Alexa Site Statistics",
@@ -951,11 +891,6 @@
         "url": "http://pub-db.com/"
       },
       {
-        "name": "WWW Domain Tools",
-        "type": "url",
-        "url": "https://w3dt.net/"
-      },
-      {
         "name": "SimilarWeb",
         "type": "url",
         "url": "https://www.similarweb.com/"
@@ -988,12 +923,12 @@
       {
         "name": "Link Expander",
         "type": "url",
-        "url": "http://www.linkexpander.com/"
+        "url": "https://linkexpander.com"
       },
       {
         "name": "GetLinkInfo",
         "type": "url",
-        "url": "http://www.getlinkinfo.com/"
+        "url": "http://www.getlinkinfo.com"
       },
       {
         "name": "CheckShortURL",
@@ -1001,29 +936,9 @@
         "url": "http://checkshorturl.com/"
       },
       {
-        "name": "Lengthen Me",
-        "type": "url",
-        "url": "https://lengthen.me/"
-      },
-      {
-        "name": "URL Expander",
-        "type": "url",
-        "url": "http://urlex.org/"
-      },
-      {
-        "name": "URL Unshortener",
-        "type": "url",
-        "url": "http://www.urlunshortener.com/"
-      },
-      {
         "name": "Where Does This Link Go?",
         "type": "url",
         "url": "http://wheredoesthislinkgo.com/"
-      },
-      {
-        "name": "KnowURL",
-        "type": "url",
-        "url": "http://www.knowurl.com/"
       }]
     },
     {
@@ -5241,24 +5156,19 @@
         "url": "http://www.onion.link/"
       },
       {
-        "name": "Candle",
-        "type": "url",
-        "url": "http://gjobqjj7wyczbqie.onion/"
-      },
-      {
         "name": "Not Evil",
         "type": "url",
-        "url": "http://hss3uro2hsxfogfq.onion/"
+        "url": "http://notevilcdlnwra7bbxio2rnrrpxyecw6dvodqeelvujf66ja3ssbdcid.onion/"
       },
       {
         "name": "Tor66",
         "type": "url",
-        "url": "http://tor66sezptuu2nta.onion/"
+        "url": "http://tor66sewebgixwhcqfnp5inzp5x5uohhdy3kvtnyfxc2e5mxiuh34iid.onion/"
       },
       {
         "name": "dark.fail",
         "type": "url",
-        "url": "http://darkfailllnkf4vf.onion/"
+        "url": "http://darkfailenbsdla5mal2mxn2uz66od5vtzd5qozslagrfzachha3f3id.onion/"
       },
       {
         "name": "Ahmia",
@@ -6767,6 +6677,11 @@
         "type": "url",
         "url": "https://geoguessr.com/"
       },
+	{
+        "name": "Sourcing.Games",
+        "type": "url",
+        "url": "https://sourcing.games/"
+      },
       {
         "name": "Verif!cation Quiz Bot",
         "type": "url",
@@ -6784,9 +6699,9 @@
       "url": "https://inteltechniques.com/"
     },
     {
-      "name": "Plessas",
+      "name": "Plessas Academy",
       "type": "url",
-      "url": "https://plessas.net/online-training"
+      "url": "https://academy.plessas.net/"
     },
     {
       "name": "SANS SEC487 OSINT Class",
