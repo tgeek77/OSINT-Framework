@@ -11,6 +11,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Convert Bookmarks
+        run: |
+          scripts/bookmark_converter.py html/arf.json html/osint-bookmarks.html
+
       - name: Log in to Docker registry
         uses: docker/login-action@v3
         with:
@@ -25,14 +29,3 @@ jobs:
         run: |
           docker push ${{ secrets.CI_REGISTRY_USER }}/neo.osint_framework:latest
 
-
-  cleanup:
-    name: Cleanup Docker
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: Remove unused Docker images
-        run: |
-          docker images -aq | xargs -r docker rmi -f
-          docker builder prune -f
-          docker volume prune -f
