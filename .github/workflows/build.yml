@@ -1,9 +1,6 @@
 name: Docker Build and Cleanup
 
-on:
-  push:
-    branches:
-      - main
+on: workflow_dispatch
 
 jobs:
   build:
@@ -19,21 +16,15 @@ jobs:
         with:
           username: ${{ secrets.CI_REGISTRY_USER }}
           password: ${{ secrets.CI_REGISTRY_PASSWORD }}
-          registry: ${{ secrets.CI_REGISTRY }}
 
       - name: Build Docker image
         run: |
-          docker build \
-            -t ${{ secrets.CI_REGISTRY_IMAGE }}:${{ github.sha }} .
-
-      - name: Tag Docker image as latest
-        run: |
-          docker tag ${{ secrets.CI_REGISTRY_IMAGE }}:${{ github.sha }} \
-            ${{ secrets.CI_REGISTRY_IMAGE }}:latest
+          docker build -t ${{ secrets.CI_REGISTRY_USER }}/neo.osint_framework:latest .
 
       - name: Push Docker image
         run: |
-          docker push ${{ secrets.CI_REGISTRY_IMAGE }}:latest
+          docker push ${{ secrets.CI_REGISTRY_USER }}/neo.osint_framework:latest
+
 
   cleanup:
     name: Cleanup Docker
