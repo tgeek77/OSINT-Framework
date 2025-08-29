@@ -11,26 +11,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # - name: Log in to Docker registry
-      #   uses: docker/login-action@v3
-      #   with:
-      #     username: ${{ secrets.CI_REGISTRY_USER }}
-      #     password: ${{ secrets.CI_REGISTRY_PASSWORD }}
-      #     registry: ${{ secrets.CI_REGISTRY }}
+      - name: Log in to Docker registry
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.CI_REGISTRY_USER }}
+          password: ${{ secrets.CI_REGISTRY_PASSWORD }}
 
       - name: Build Docker image
         run: |
-          docker build \
-            -t ${{ secrets.CI_REGISTRY_IMAGE }}:${{ github.sha }} .
+          docker build -t ${{ secrets.CI_REGISTRY_USER }}/neo.osint_framework:latest .
 
-      - name: Tag Docker image as latest
+      - name: Push Docker image
         run: |
-          docker tag ${{ secrets.CI_REGISTRY_IMAGE }}:${{ github.sha }} \
-            ${{ secrets.CI_REGISTRY_IMAGE }}:latest
+          docker push ${{ secrets.CI_REGISTRY_USER }}/neo.osint_framework:latest
 
-      # - name: Push Docker image
-      #   run: |
-      #     docker push ${{ secrets.CI_REGISTRY_IMAGE }}:latest
 
   cleanup:
     name: Cleanup Docker
