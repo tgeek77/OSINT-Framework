@@ -24,9 +24,11 @@ Today:
 (M) - Indicates a URL that contains the search term and the URL itself must be edited manually  
 
 ### For Update Notifications
-Follow me on X: [@xwingfdameron](https://x.com/xwingfdameron)
-on Mastodon: [@infopunk](https://infosec.exchange/@infopunk)
-Email: [duck.com](mailto:grab-module-jackal@duck.com)
+Follow me on: 
+* X: [@xwingfdameron](https://x.com/xwingfdameron)
+* Mastodon: [@infopunk](https://infosec.exchange/@infopunk)
+* Email: [duck.com](mailto:grab-module-jackal@duck.com)
+
 Watch or star the project on Github: https://github.com/tgeek77/OSINT-Frame.work
 
 ### Suggestions, Comments, Feedback
