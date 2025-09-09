@@ -1,15 +1,21 @@
-# OSINT Frame.work
+## OSINT Frame.work
 
-http://osintframe.work
+**New site:** http://osintframe.work
 
-## Notes
-OSINT Frame.work focused on gathering information from free tools or resources. The intention is to help people find free OSINT resources. Some of the sites included might require registration or offer more data for $$$, but you should be able to get at least a portion of the available information for no cost.
+### Notes
+OSINT Frame.work focuses on gathering information from free tools or resources. The intention is to help people find free OSINT resources. Some of the sites included might require registration or offer more data for $$$, but you should be able to get at least a portion of the available information for no cost.
 
-I originally created this framework with an information security point of view. Since then, the response from other fields and disciplines has been incredible. I would love to be able to include any other OSINT resources, especially from fields outside of infosec. Please let me know about anything that might be missing!
+The original [OSINT Framework](osintframework.com) was originally created with an information security point of view. Since then, the response from other fields and disciplines has been incredible. I would love to be able to include any other OSINT resources, especially from fields outside of infosec. Please let me know about anything that might be missing!
 
-Please visit the framework at the link below and good hunting!
+Today:
+[OSINT Frame.work](https://osintframe.work) is a new fork of OSINT Framework with the same goal of finding and providing access to OSINT tools with some new functionality and management team to help keep it up to date. This site has no cookies and no tracking. It has no advertisements and the only stored data is standard web server logs. It also does not block Tor Browser users at all, though many of the resources found here will.
 
-https://osintframe.work
+### Changelog
+* September 9th, 2025  -- advertisements went out on Reddit and LinkedIn. readme.md is updated and the ci/cd is simplified
+* September 8th, 2025  -- osintframe.work went live
+* August 2025 -- The OSINT Framework Github reposistory was forked
+* February 2016 -- osintframework.com went live
+* December 18th, 2015 -- OSINT Framework's first commit
 
 ### Legend
 (T) - Indicates a link to a tool that must be installed and run locally  
@@ -18,11 +24,13 @@ https://osintframe.work
 (M) - Indicates a URL that contains the search term and the URL itself must be edited manually  
 
 ### For Update Notifications
-Follow me on Twitter: @jnordine - https://twitter.com/jnordine  
-Watch or star the project on Github: https://github.com/lockfale/osint-framework
+Follow me on X: [@xwingfdameron](https://x.com/xwingfdameron)
+on Mastodon: [@infopunk](https://infosec.exchange/@infopunk)
+Email: [duck.com](mailto:grab-module-jackal@duck.com)
+Watch or star the project on Github: https://github.com/tgeek77/OSINT-Frame.work
 
 ### Suggestions, Comments, Feedback
-Feedback or new tool suggestions are extremely welcome!  Please feel free to submit a pull request or open an issue on github or reach out on Twitter.
+Feedback or new tool suggestions are extremely welcome!  If you're not comfortable creating a pull request, feel free to open an issue on github or reach out on email, X, or Mastodon.
 
 ### Contribute with a GitHub Pull Request
 For new resources, please ensure that the site is available for public and free use.
@@ -49,3 +57,4 @@ Thank you!
 https://osintframe.work
 
 Happy Hunting!
+

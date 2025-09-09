@@ -1,6 +1,9 @@
 name: Docker Build and Cleanup
 
-on: workflow_dispatch
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   build:
@@ -28,4 +31,3 @@ jobs:
       - name: Push Docker image
         run: |
           docker push ${{ secrets.CI_REGISTRY_USER }}/neo.osint_framework:latest
-
