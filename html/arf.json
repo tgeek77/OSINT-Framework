@@ -153,7 +153,7 @@
       {
         "name": "Infoga (T)",
         "type": "url",
-        "url": "https://github.com/m4ll0k/infoga"
+        "url": "https://github.com/The404Hacking/Infoga"
       },
       {
         "name": "Skymem",
@@ -441,9 +441,9 @@
         "url": "https://github.com/hrbrmstr/gdns"
       },
       {
-        "name": "assetnote (T)",
+        "name": "assetnote (A)",
         "type": "url",
-        "url": "https://github.com/infosec-au/assetnote"
+        "url": "https://web.archive.org/web/20170104072919/https://github.com/infosec-au/assetnote"
       },
       {
         "name": "Sublist3r",
@@ -716,9 +716,9 @@
         "url": "http://www.networksec.org/grabbho/block.txt"
       },
       {
-        "name": "Malware Domains Blacklist",
+        "name": "Malware Domains Blacklist (A)",
         "type": "url",
-        "url": "http://mirror1.malwaredomains.com/files/domains.txt"
+        "url": "https://web.archive.org/web/20201112021409/https://mirror1.malwaredomains.com/files/domains.txt"
       },
       {
         "name": "Blackweb",
@@ -726,14 +726,9 @@
         "url": "https://github.com/maravento/blackweb"
       },
       {
-        "name": "DNS Sinkhole",
+        "name": "DNS-BH Malware Domain Blocklist (A)",
         "type": "url",
-        "url": "http://malc0de.com/bl/"
-      },
-      {
-        "name": "DNS-BH Malware Domain Blocklist",
-        "type": "url",
-        "url": "http://www.malwaredomains.com/wordpress/?page_id=66"
+        "url": "https://web.archive.org/web/20200308053424/http://www.malwaredomains.com/wordpress/?page_id=66"
       },
       {
         "name": "Malware Domain List",
@@ -1496,11 +1491,6 @@
         "url": "https://www.netresec.com/?page=Networkminer"
       },
       {
-        "name": "Packet Total",
-        "type": "url",
-        "url": "http://www.packettotal.com/"
-      },
-      {
         "name": "NetworkTotal",
         "type": "url",
         "url": "https://www.networktotal.com/"
@@ -1793,11 +1783,6 @@
           "name": "Ghiro (T)",
           "type": "url",
           "url": "https://github.com/ghirensics/ghiro"
-        },
-        {
-          "name": "Camera Trace",
-          "type": "url",
-          "url": "http://www.cameratrace.com/trace"
         }]
       },
       {
@@ -2310,11 +2295,6 @@
         "type": "folder",
         "children": [
         {
-          "name": "All My Tweets",
-          "type": "url",
-          "url": "https://www.allmytweets.net/connect/"
-        },
-        {
           "name": "Spoonbill",
           "type": "url",
           "url": "https://spoonbill.io"
@@ -2693,7 +2673,7 @@
       {
         "name": "AnyWho",
         "type": "url",
-        "url": "http://www.anywho.com/whitepages"
+        "url": "https://www.anywho.com/"
       },
       {
         "name": "Addresses.com",
@@ -2989,7 +2969,7 @@
     {
       "name": "Numspy-Api",
       "type": "url",
-      "url": "https://numspy.pythonanywhere.com/"
+      "url": "https://bhattsameer.github.io/numspy/"
     }]
   },
   {
@@ -3618,7 +3598,7 @@
       {
         "name": "Vehicle Specifications Lookup",
         "type": "url",
-        "url": "https://berla.co/products/ive/vehicle-lookup/"
+        "url": "https://berla.co/vehicle_lookup/"
       },
       {
         "name": "License Plate Search",
@@ -3669,11 +3649,6 @@
         "name": "Vessel Tracker",
         "type": "url",
         "url": "http://www.vesseltracker.com/app"
-      },
-      {
-        "name": "Ship AIS",
-        "type": "url",
-        "url": "http://www.shipais.com/"
       },
       {
         "name": "Shodan Ship Tracker",
@@ -3855,11 +3830,6 @@
       "name": "Historic Aerials",
       "type": "url",
       "url": "http://www.historicaerials.com/?javascript=&"
-    },
-    {
-      "name": "Google Maps Update Alerts",
-      "type": "url",
-      "url": "https://followyourworld.appspot.com/"
     },
     {
       "name": "Google Earth Overlays",
@@ -4088,7 +4058,7 @@
       {
         "name": "iSEEK",
         "type": "url",
-        "url": "http://iseek.com/iseek/home.page"
+        "url": "https://www.iseek.com/#/web"
       },
       {
         "name": "Biznar",
@@ -4586,9 +4556,9 @@
         "url": "http://search.mibbit.com/"
       },
       {
-        "name": "ircsnapshot (T)",
+        "name": "ircsnapshot (A)",
         "type": "url",
-        "url": "https://github.com/bwall/ircsnapshot"
+        "url": "https://web.archive.org/web/20221031180557/https://github.com/bwall/ircsnapshot"
       },
       {
         "name": "netsplit.de",
@@ -4994,11 +4964,6 @@
             "url": "https://play.google.com/store/apps/details?id=kik.android"
           },
           {
-            "name": "Yik Yak (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.yik.yak"
-          },
-          {
             "name": "LINE (T)",
             "type": "url",
             "url": "https://play.google.com/store/apps/details?id=jp.naver.line.android"
@@ -5016,7 +4981,7 @@
           {
             "name": "Flickr (T)",
             "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=com.yahoo.mobile.client.android.flickr"
+            "url": "https://play.google.com/store/search?q=flickr&c=apps&hl=en_US"
           }]
         },
         {
@@ -5024,19 +4989,9 @@
           "type": "folder",
           "children": [
           {
-            "name": "Periscope (T)",
+            "name": "Twitch (T)",
             "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=tv.periscope.android"
-          },
-          {
-            "name": "Meerkat (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=co.getair.meerkat"
-          },
-          {
-            "name": "Vine (T)",
-            "type": "url",
-            "url": "https://play.google.com/store/apps/details?id=co.vine.android"
+            "url": "https://play.google.com/store/search?q=twitch&c=apps&hl=en_US"
           }]
         },
         {
@@ -5419,7 +5374,7 @@
       {
         "name": "SpiderMonkey (T)",
         "type": "url",
-        "url": "https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey"
+        "url": "https://firefox-source-docs.mozilla.org/js/index.html"
       },
       {
         "name": "Kahu Revelo (T)",
@@ -5429,7 +5384,7 @@
       {
         "name": "JavaScript Deobfuscator (T)",
         "type": "url",
-        "url": "https://addons.mozilla.org/en-US/firefox/addon/javascript-deobfuscator/"
+        "url": "https://deobfuscate.io/"
       }]
     },
     {
@@ -5498,7 +5453,7 @@
         {
           "name": "Balbuzard (T)",
           "type": "url",
-          "url": "https://bitbucket.org/decalage/balbuzard"
+          "url": "https://github.com/decalage2/balbuzard"
         }]
       }]
     },
@@ -5635,11 +5590,6 @@
         "name": "VirtualBox (T)",
         "type": "url",
         "url": "https://www.virtualbox.org/"
-      },
-      {
-        "name": "Buscador OS (T)",
-        "type": "url",
-        "url": "https://inteltechniques.com/buscador/index.html"
       },
       {
         "name": "Kali Linux OS (T)",
@@ -6417,11 +6367,6 @@
           "url": "http://www.whatbrowseramiusing.co/"
         },
         {
-          "name": "What Browser?",
-          "type": "url",
-          "url": "https://whatbrowser.org/"
-        },
-        {
           "name": "BrowserSpy.dk Browser Information",
           "type": "url",
           "url": "http://browserspy.dk/browser.php"
@@ -6465,7 +6410,7 @@
       {
         "name": "Self-Destructing Cookies (T)",
         "type": "url",
-        "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies/"
+        "url": "https://addons.mozilla.org/en-US/firefox/addon/self-destructing-cookies-webex/"
       },
       {
         "name": "BrowserSpy.dk",
@@ -6505,7 +6450,7 @@
       {
         "name": "Credit Freeze",
         "type": "url",
-        "url": "https://inteltechniques.com/blog/2018/09/28/complete-credit-freeze-tutorial-update/"
+        "url": "https://inteltechniques.com/requests.html"
       },
       {
         "name": "Fake US Identities",
@@ -6533,9 +6478,9 @@
         "url": "https://inteltechniques.com/data/workbook.pdf"
       },
       {
-        "name": "The Many Hats Club - Privacy Resources",
+        "name": "The Many Hats Club - Privacy Resources (A)",
         "type": "url",
-        "url": "https://themanyhats.club/centralised-place-for-privacy-resources/"
+        "url": "https://web.archive.org/web/20220522083122/https://themanyhats.club/centralised-place-for-privacy-resources/"
       },
       {
 	"name": "The Hitchhiker’s Guide to Online Anonymity",
